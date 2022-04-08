@@ -75,7 +75,7 @@ describe('DELETE /Donneurs/:id',  (done)=>  {
 //GET
 
 describe("GET /Donneurs", () => {
-  it("ketbi kache haja", (done) => {
+  it("done", (done) => {
    chai.request(app)
        .get("/Donneurs")
      
@@ -91,7 +91,7 @@ describe("GET /Donneurs", () => {
  });
  
  describe("GET /Donneurs/:id", () => {
-  it("ketbi kache haja", (done) => {
+  it("done", (done) => {
     chai.request(app)
       .get("/Donneurs")
      
@@ -104,7 +104,7 @@ describe("GET /Donneurs", () => {
       });
       });
 
-  it("ketbi kache haja", (done) => {
+  it("done", (done) => {
     chai.request(app)
       .get("/Donneurs/nonexistingDonneurs")
     
